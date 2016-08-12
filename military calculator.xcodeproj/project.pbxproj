@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280CEF731CC8755E00E2AF3B /* ruberShoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 280CEF721CC8755E00E2AF3B /* ruberShoes.png */; };
 		281830D91C9EA10F00CA2510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281830D81C9EA10F00CA2510 /* AppDelegate.swift */; };
-		281830DB1C9EA10F00CA2510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281830DA1C9EA10F00CA2510 /* ViewController.swift */; };
 		281830DE1C9EA10F00CA2510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281830DC1C9EA10F00CA2510 /* Main.storyboard */; };
 		281830E01C9EA10F00CA2510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281830DF1C9EA10F00CA2510 /* Assets.xcassets */; };
 		281830E31C9EA10F00CA2510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281830E11C9EA10F00CA2510 /* LaunchScreen.storyboard */; };
 		281830EE1C9EA10F00CA2510 /* military_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281830ED1C9EA10F00CA2510 /* military_calculatorTests.swift */; };
 		281830F91C9EA10F00CA2510 /* military_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281830F81C9EA10F00CA2510 /* military_calculatorUITests.swift */; };
+		282F362F1CD9B50F009BF5CA /* SettingOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282F362E1CD9B50F009BF5CA /* SettingOneViewController.swift */; };
+		28EB5D601CABE5A7006F185A /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB5D5F1CABE5A7006F185A /* MainTabViewController.swift */; };
+		28EB5D621CABE60D006F185A /* WebViewTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB5D611CABE60D006F185A /* WebViewTabViewController.swift */; };
+		28EB5D641CABE6A6006F185A /* SettingTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB5D631CABE6A6006F185A /* SettingTabViewController.swift */; };
+		28FCBF9B1CC0C9B9001A07CD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FCBF9A1CC0C9B9001A07CD /* libsqlite3.dylib */; };
+		28FCBFA81CC0D4FD001A07CD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBF9F1CC0D4FD001A07CD /* FMDatabase.m */; };
+		28FCBFA91CC0D4FD001A07CD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBFA11CC0D4FD001A07CD /* FMResultSet.m */; };
+		28FCBFAA1CC0D4FD001A07CD /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBFA31CC0D4FD001A07CD /* FMDatabaseQueue.m */; };
+		28FCBFAB1CC0D4FD001A07CD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBFA51CC0D4FD001A07CD /* FMDatabaseAdditions.m */; };
+		28FCBFAC1CC0D4FD001A07CD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FCBFA71CC0D4FD001A07CD /* FMDatabasePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280CEF721CC8755E00E2AF3B /* ruberShoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ruberShoes.png; path = ../../ruberShoes.png; sourceTree = "<group>"; };
 		281830D51C9EA10F00CA2510 /* military calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "military calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281830D81C9EA10F00CA2510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		281830DA1C9EA10F00CA2510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		281830DD1C9EA10F00CA2510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		281830DF1C9EA10F00CA2510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281830E21C9EA10F00CA2510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,23 @@
 		281830F41C9EA10F00CA2510 /* military calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "military calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281830F81C9EA10F00CA2510 /* military_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = military_calculatorUITests.swift; sourceTree = "<group>"; };
 		281830FA1C9EA10F00CA2510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282F362E1CD9B50F009BF5CA /* SettingOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingOneViewController.swift; sourceTree = "<group>"; };
+		28EB5D5F1CABE5A7006F185A /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		28EB5D611CABE60D006F185A /* WebViewTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewTabViewController.swift; sourceTree = "<group>"; };
+		28EB5D631CABE6A6006F185A /* SettingTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTabViewController.swift; sourceTree = "<group>"; };
+		28FCBF9A1CC0C9B9001A07CD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		28FCBF9C1CC0D4FD001A07CD /* military calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "military calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		28FCBF9D1CC0D4FD001A07CD /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../../Documents/fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		28FCBF9E1CC0D4FD001A07CD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../../Documents/fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		28FCBF9F1CC0D4FD001A07CD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../../Documents/fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		28FCBFA01CC0D4FD001A07CD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../../Documents/fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		28FCBFA11CC0D4FD001A07CD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../../Documents/fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		28FCBFA21CC0D4FD001A07CD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../../Documents/fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		28FCBFA31CC0D4FD001A07CD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../../Documents/fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		28FCBFA41CC0D4FD001A07CD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../../Documents/fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		28FCBFA51CC0D4FD001A07CD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../../Documents/fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		28FCBFA61CC0D4FD001A07CD /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../../Documents/fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		28FCBFA71CC0D4FD001A07CD /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../../Documents/fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FCBF9B1CC0C9B9001A07CD /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +102,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280CEF711CC8753100E2AF3B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				280CEF721CC8755E00E2AF3B /* ruberShoes.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		281830CC1C9EA10F00CA2510 = {
 			isa = PBXGroup;
 			children = (
+				280CEF711CC8753100E2AF3B /* img */,
+				28FCBF9D1CC0D4FD001A07CD /* FMDB.h */,
+				28FCBF9E1CC0D4FD001A07CD /* FMDatabase.h */,
+				28FCBF9F1CC0D4FD001A07CD /* FMDatabase.m */,
+				28FCBFA01CC0D4FD001A07CD /* FMResultSet.h */,
+				28FCBFA11CC0D4FD001A07CD /* FMResultSet.m */,
+				28FCBFA21CC0D4FD001A07CD /* FMDatabaseQueue.h */,
+				28FCBFA31CC0D4FD001A07CD /* FMDatabaseQueue.m */,
+				28FCBFA41CC0D4FD001A07CD /* FMDatabaseAdditions.h */,
+				28FCBFA51CC0D4FD001A07CD /* FMDatabaseAdditions.m */,
+				28FCBFA61CC0D4FD001A07CD /* FMDatabasePool.h */,
+				28FCBFA71CC0D4FD001A07CD /* FMDatabasePool.m */,
+				28FCBF9A1CC0C9B9001A07CD /* libsqlite3.dylib */,
 				281830D71C9EA10F00CA2510 /* military calculator */,
 				281830EC1C9EA10F00CA2510 /* military calculatorTests */,
 				281830F71C9EA10F00CA2510 /* military calculatorUITests */,
 				281830D61C9EA10F00CA2510 /* Products */,
+				28FCBF9C1CC0D4FD001A07CD /* military calculator-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +148,14 @@
 			isa = PBXGroup;
 			children = (
 				281830D81C9EA10F00CA2510 /* AppDelegate.swift */,
-				281830DA1C9EA10F00CA2510 /* ViewController.swift */,
 				281830DC1C9EA10F00CA2510 /* Main.storyboard */,
 				281830DF1C9EA10F00CA2510 /* Assets.xcassets */,
 				281830E11C9EA10F00CA2510 /* LaunchScreen.storyboard */,
 				281830E41C9EA10F00CA2510 /* Info.plist */,
+				28EB5D5F1CABE5A7006F185A /* MainTabViewController.swift */,
+				28EB5D611CABE60D006F185A /* WebViewTabViewController.swift */,
+				28EB5D631CABE6A6006F185A /* SettingTabViewController.swift */,
+				282F362E1CD9B50F009BF5CA /* SettingOneViewController.swift */,
 			);
 			path = "military calculator";
 			sourceTree = "<group>";
@@ -193,6 +246,7 @@
 				TargetAttributes = {
 					281830D41C9EA10F00CA2510 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J2HX4XDNT4;
 					};
 					281830E81C9EA10F00CA2510 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,6 +286,7 @@
 				281830E31C9EA10F00CA2510 /* LaunchScreen.storyboard in Resources */,
 				281830E01C9EA10F00CA2510 /* Assets.xcassets in Resources */,
 				281830DE1C9EA10F00CA2510 /* Main.storyboard in Resources */,
+				280CEF731CC8755E00E2AF3B /* ruberShoes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281830DB1C9EA10F00CA2510 /* ViewController.swift in Sources */,
+				282F362F1CD9B50F009BF5CA /* SettingOneViewController.swift in Sources */,
+				28FCBFA91CC0D4FD001A07CD /* FMResultSet.m in Sources */,
 				281830D91C9EA10F00CA2510 /* AppDelegate.swift in Sources */,
+				28EB5D641CABE6A6006F185A /* SettingTabViewController.swift in Sources */,
+				28FCBFAA1CC0D4FD001A07CD /* FMDatabaseQueue.m in Sources */,
+				28FCBFAC1CC0D4FD001A07CD /* FMDatabasePool.m in Sources */,
+				28EB5D621CABE60D006F185A /* WebViewTabViewController.swift in Sources */,
+				28FCBFA81CC0D4FD001A07CD /* FMDatabase.m in Sources */,
+				28EB5D601CABE5A7006F185A /* MainTabViewController.swift in Sources */,
+				28FCBFAB1CC0D4FD001A07CD /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +462,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "military calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eunjoo.military-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "military calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +479,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "military calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eunjoo.military-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "military calculator-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +558,7 @@
 				281830FF1C9EA10F00CA2510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281831001C9EA10F00CA2510 /* Build configuration list for PBXNativeTarget "military calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +567,7 @@
 				281831021C9EA10F00CA2510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281831031C9EA10F00CA2510 /* Build configuration list for PBXNativeTarget "military calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +576,7 @@
 				281831051C9EA10F00CA2510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,10 +9,15 @@
 import UIKit
 
 class WebViewTabViewController: UIViewController {
+    
+    
+    @IBOutlet var webview: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let url = NSURL(string: "http://cafe.naver.com/komusincafe")
+        let request = NSURLRequest(URL: url!)
+        webview.loadRequest(request)
         // Do any additional setup after loading the view.
     }
 

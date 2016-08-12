@@ -21,6 +21,9 @@ class SettingOneViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func testSave(sender: AnyObject) {
+        NSUserDefaults.standardUserDefaults().setBool(true, forKey: "testfirstlaunch")
+    }
 
     /*
     // MARK: - Navigation
